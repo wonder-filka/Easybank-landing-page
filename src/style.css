@@ -1,0 +1,155 @@
+@media (max-width: 800px) {
+  .btn-menu {
+    display: none;
+  }
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Public Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 54px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+a:hover {
+  color: #5caca1;
+}
+
+.why_list_item p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.card {
+  border: none;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.name_author {
+  font-size: 10px;
+  font-weight: 300;
+  color: #96959a;
+}
+
+.card h5 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #96959a;
+}
+
+.first_block {
+  align-items: center;
+  overflow: hidden;
+}
+
+.left_part {
+  align-items: center;
+  vertical-align: bottom;
+}
+
+.right_part {
+}
+
+.why {
+  background-color: #f4f5f7;
+  width: 100%;
+}
+
+.why_wrap {
+}
+
+.cards_articles {
+  justify-content: space-around;
+}
+.card img {
+  height: 100%;
+}
+
+footer {
+  background-color: #2d314e;
+  color: white;
+}
+
+footer a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_img {
+  padding-right: 14px;
+}
+
+.contact_img:hover {
+  color: #5caca1;
+}
+
+button {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  width: 162px;
+  height: 44px;
+  background: linear-gradient(270deg, #7ad4de 0%, #83e49e 100%);
+  border-radius: 25px;
+  border: transparent;
+}
+
+.foot_col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.attribution {
+  background-color: #43486e;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.attribution a {
+  color: white;
+}

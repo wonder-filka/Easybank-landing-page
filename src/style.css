@@ -42,6 +42,9 @@
     width: 100%;
     height: auto !important;
     margin-top: -30% !important;
+    background-image: url("/images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   #mockup {
@@ -131,9 +134,10 @@ a:hover {
 
 .first {
   z-index: 1;
-}
-
-.first_block {
+  background-image: url("/images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-position-x: 100vh;
+  height: auto;
 }
 
 .left_part {
@@ -143,14 +147,15 @@ a:hover {
 .right_part {
   position: relative;
   overflow: hidden;
-  height: 120vh;
+  height: 110vh;
 }
 
 #mockup {
   position: absolute;
   top: -100px;
-  left: 10%;
-  height: 120vh;
+  left: 20%;
+  height: 110vh;
+  margin: 0;
 }
 
 .why {

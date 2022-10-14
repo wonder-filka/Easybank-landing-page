@@ -10,8 +10,11 @@
   }
 
   .foot_col,
-  .foot_col1 {
+  .foot_col1,
+  .contacts,
+  .foot_col1 p {
     align-items: center;
+    padding-top: 15px;
   }
   #menuMobileButton {
     margin-left: auto;

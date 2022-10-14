@@ -1,5 +1,56 @@
-@media (max-width: 991px) {
-  .btn-menu button {
+@media (max-width: 767px) {
+  .menuDesktop,
+  .menuList,
+  .menuItem {
+    display: none;
+  }
+
+  body {
+    text-align: center !important;
+  }
+
+  .foot_col,
+  .foot_col1 {
+    align-items: center;
+  }
+  #menuMobileButton {
+    margin-left: auto;
+  }
+
+  #menuMobileButton img {
+    height: 2vh;
+  }
+
+  h1 {
+    font-size: 36px !important;
+  }
+  .first_block {
+    overflow: hidden !important;
+  }
+  .left_part {
+    text-align: center;
+    order: 2;
+    padding: 0 !important;
+    margin: 0 auto 0 auto !important;
+  }
+
+  .right_part {
+    order: 1;
+    width: 100%;
+    height: auto !important;
+    margin-top: -30% !important;
+  }
+
+  #mockup {
+    position: relative !important;
+    height: auto !important;
+    width: 100% !important;
+    left: 0% !important;
+  }
+}
+
+@media (min-width: 767px) {
+  #menuMobileButton {
     display: none;
   }
 }
@@ -10,19 +61,50 @@ body {
   font-weight: 300;
   width: 100%;
   background-color: #fafafa !important;
-  background-image: url(../images/bg-intro-desktop.svg);
-  background-repeat: no-repeat;
-  background-position: 130% 5%;
+}
 
-  background-size: 60%;
+header {
+  height: 100vh;
 }
-main {
-  z-index: 1;
-  overflow: hidden;
-}
+
 nav {
   z-index: 1000;
   background-color: #ffffff;
+}
+.menu_wrap {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+  flex-wrap: wrap;
+}
+
+.menuList {
+  display: flex;
+}
+.menuItem {
+  padding-left: 30px;
+}
+
+.menuList a {
+  width: 100%;
+  text-decoration: none;
+  color: #99999b;
+}
+.menuMobile {
+  display: none;
+  text-align: center;
+  background-color: white;
+  margin: 10px 0 0 0;
+  padding: 10px;
+}
+.menuItemMobile {
+  margin: 30px 0 30px 0;
+}
+.menuItemMobile a {
+  text-decoration: none;
+  color: #99999b;
 }
 
 h1 {
@@ -44,36 +126,28 @@ a:hover {
   color: #5caca1;
 }
 
-.collapse {
-  background-color: white;
-  text-align: center;
-}
-
-.navbar-nav {
-  margin: 0 auto;
-}
-
 .first {
-  height: 90vh;
+  z-index: 1;
 }
 
 .first_block {
-  display: flex;
-  align-items: center;
-}
-
-.right_part {
-  overflow: hidden;
-}
-
-#mockup {
-  margin: -41px;
-  height: 110vh;
 }
 
 .left_part {
-  padding-left: 15%;
-  padding-right: 5%;
+  padding: 15% 0 15% 15%;
+}
+
+.right_part {
+  position: relative;
+  overflow: hidden;
+  height: 120vh;
+}
+
+#mockup {
+  position: absolute;
+  top: -100px;
+  left: 10%;
+  height: 120vh;
 }
 
 .why {

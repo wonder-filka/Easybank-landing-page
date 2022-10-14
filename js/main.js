@@ -1,0 +1,3 @@
+$("#menuMobileButton").click(() => {
+  $("#menuMobile").toggle();
+});

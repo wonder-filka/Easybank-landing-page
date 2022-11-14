@@ -1,6 +1,4 @@
-# Easybank landing page solution
-
-This is a solution to the "Easybank landing page challenge".
+# Easybank landing page 
 
 ## Table of contents
 
@@ -65,5 +63,4 @@ Jquery
 ## Author
 
 - Website - [Iryna Filonova](https://sensational-cactus-93a152.netlify.app/)
-- Frontend Mentor - [@wonder-filka](https://www.frontendmentor.io/profile/wonder-filka)
 - Twitter - [@filochka2](https://twitter.com/filochka2)
